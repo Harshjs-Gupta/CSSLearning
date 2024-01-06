@@ -1,0 +1,80 @@
+*{
+    font-family: 'Times New Roman';
+}
+
+#Level1
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: aqua;
+}
+
+#topic
+{
+    text-align: center;
+    font-size: 17px;
+    color: crimson;
+    font-weight: 500;
+}
+
+#backgroundcolor
+{
+    background-color:chartreuse;
+}
+
+.heading
+{
+    color: red;
+}
+
+button
+{
+    background-color: greenyellow;
+}
+
+
+
+#para
+{
+    color:blue ;
+    text-align: center;
+    text-decoration: black underline;
+}
+#para2
+{
+   line-height: normal;
+   text-transform: capitalize;
+}
+
+#one
+{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.google
+{ 
+    text-decoration: none;
+    font-size: large;
+    color:indigo
+}
+
+#outer
+{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+#inner
+{
+    font-size: 15px;
+}
+
+#Level2
+{
+   text-decoration: none;
+   font-weight: 600;
+}
