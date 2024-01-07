@@ -1,0 +1,96 @@
+* {
+  font-family: "Times New Roman";
+}
+
+body{
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+#topic {
+  text-align: center;
+  font-weight: 900;
+}
+
+/* div {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid black;
+} */
+
+#container1 {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid black
+}
+
+#box1 {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid black;
+  background-color: red;
+}
+
+#box2 {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid black;
+  background-color: chartreuse;
+}
+
+#box3 {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid black;
+  background-color: coral;
+}
+
+#box4 {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid black;
+  background-color: darkorange;
+}
+
+#box5 {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid black;
+  background-color: yellow;
+  align-self: flex-end;
+}
+
+
+.container2{
+  height: 600px;
+  width: 600px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box6{
+  height: 100px ;
+  width: 100px;
+  background-color: #ff00ff;
+  border: 2px solid black;
+}
+
+a{
+  font-size: 30px;
+}
