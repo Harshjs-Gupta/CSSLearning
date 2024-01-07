@@ -1,0 +1,92 @@
+* {
+  font-family: "Times New Roman";
+}
+
+body{
+    background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+#topic{
+  text-align: center;
+  font-weight: 900;
+}
+
+#boxA {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  font-size: 15px;
+}
+
+#boxB {
+  height: 100px;
+  width: 50%;
+  /* margin-left: 10%; */
+  font-size: 2em; /* 2em means double the font size of parent element*/
+  width: 5em;
+  width: 5rem;
+  background-color: yellow;
+}
+
+#position1,
+#position2,
+#position3,
+#position4,
+#position5 {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#position1 {
+    background-color:coral;
+  position: static;
+
+}
+
+#position2 {
+    background-color: blue;
+    position: relative;
+    right: 20px;
+    z-index: -1;
+}
+#position3{
+    background-color: chartreuse;
+    position:absolute;
+    right: 50px;
+}
+
+#position4{
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+}
+
+#position5{
+    background-color:orangered;
+    position: sticky;
+    top: 0;
+}
+
+
+#image{
+  text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-image: url("/Images/Cat.jpg");
+    background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 800;
+  font-size: large;
+}
