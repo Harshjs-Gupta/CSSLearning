@@ -1,0 +1,107 @@
+body{
+  background-color: orange;
+}
+
+header{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #011111;
+}
+
+select{
+  color: black;
+  width: 40px;
+}
+
+#Alldepartment{
+  position: relative;
+  left: 99px;
+  
+}
+
+#logo {
+  color: rgb(244, 113, 66);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: orangered;
+  color: black;
+  margin: 10px 5px 10px 5px;
+}
+
+#soap,
+#ps5,
+#appliances {
+  height: 70px;
+  width: 100px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  margin: 10px;
+}
+
+#soap {
+  border-radius: 35%;
+  background-image: url("/Images/soap.jpg");
+  background-size: cover;
+}
+
+#ps5 {
+  border-radius: 35%;
+  background-image: url("/Images/ps5.jpg");
+  background-size: cover;
+}
+
+#appliances {
+  border-radius: 35%;
+  background-image: url("/Images/appliances.jpg");
+  background-size: cover;
+}
+
+#contentBox {
+  height: 560px;
+  display: flex;
+}
+
+.imagebox{
+  height: 150px;
+  width: 150px;
+  /* margin: 0px 130px 0px 0px; */
+}
+
+footer {
+  background-color: #011111;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+span{
+  margin: 22px;
+  color: black;
+}
+
+@media(max-width: 300px){
+  body{
+    background-color: white;
+  }
+}
