@@ -1,0 +1,38 @@
+*{
+    font-family: 'Times New Roman';
+    color: black;
+}
+
+body{
+    background-color: cyan;
+}
+
+#logo{
+    color: rgb(243, 74, 12);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 5px 150px 5px 5px ;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.function{
+  color: white;
+  margin: 10px 190px 10px 5px;
+ 
+}
+
+.navbar{
+    display: flex;
+    flex-direction:row; 
+    background-color: #0f1111;
+    height: 40px;
+    border: 3px solid white;
+
+}
+
+button{
+    background-color: rgb(247, 121, 76);
+    padding: 2px 9px 2px 9px;
+    margin: 5px ;
+}
