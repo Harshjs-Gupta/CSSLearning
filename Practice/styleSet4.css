@@ -1,0 +1,34 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: aqua;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.loader{
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid rgb(173, 169, 169);
+    border-top: 5px solid black;
+    animation: loader 2s ease-in-out infinite normal;
+}
+
+@keyframes loader {
+    0%{
+        /* border-top-color: red; */
+        transform: rotate(0deg);
+    }
+    100%{
+        /* border-top-color: orange; */
+        transform: rotate(360deg);
+    }
+}
